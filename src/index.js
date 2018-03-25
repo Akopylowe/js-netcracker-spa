@@ -1,3 +1,4 @@
-console.log('App is working')
+import {starton} from "./framework/core/starton";
+import {appModule} from "./app/app.module";
 
-document.querySelector('h1').textContent = 'Working'
+starton(appModule)
