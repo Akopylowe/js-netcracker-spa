@@ -15,7 +15,7 @@ export const appHeader = new AppHeader({
       <ul class="right hide-on-med-and-down">
      <li style="margin-right: 20px"> safty by AntiFish</li>
         <li><a href="#">О сервисе</a></li>
-        <li class="active"><a href="#">Регистрация</a></li>
+        <li class="active"><a href="#join">Регистрация</a></li>
       </ul>
     </div>
   </nav>

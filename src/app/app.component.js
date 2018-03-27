@@ -14,6 +14,8 @@ export const appComponent = new AppComponent({
     template: `
     <app-header></app-header>
     
+    <router-outlet> </router-outlet>
+    
      <ul class="collection">
     <li class="collection-item avatar">
       <img src="https://avatars.mds.yandex.net/get-yapic/42215/368241619-342521979/islands-200" alt="" class="circle">
@@ -48,4 +50,5 @@ export const appComponent = new AppComponent({
       <a href="#!" class="secondary-content"><i class="material-icons">send</i></a>
     </li>
   </ul>`
+
 })

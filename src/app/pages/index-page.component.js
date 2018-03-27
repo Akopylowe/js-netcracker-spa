@@ -8,5 +8,27 @@ class IndexPageComponent extends FComponent{
 
 export const indexPageComponent = new IndexPageComponent({
     selector: 'app-index-page',
-    template: '<h1> Главная </h1>'
+    template: `
+    
+<div class="wrapper">
+  <div class="title">Авторизация</div>
+  <div class="content">
+    <ul>
+      <li>
+        <input class="wicon" id="mail" type="text" placeholder="E-mail"/>
+      </li>
+      <li>
+         <input id="pass" type="password" placeholder="Пароль"/>
+      </li>  
+     
+    </ul>
+  </div>
+  <div class="actions">
+    <button class="button blue">Войти</button>
+  </div>
+</div>
+    
+    
+    `
+
 })
