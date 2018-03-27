@@ -1,7 +1,7 @@
    export class Module {
         constructor(config){
         this.components = config.components
-
+        this.bootsrapComponent = config.bootstrap
         }
 
         start() {
@@ -9,6 +9,7 @@
         }
 
         initComponents(){
+            this.bootsrapComponent.render()
             this.components.forEach(c => c.render())
         }
 

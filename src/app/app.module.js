@@ -10,7 +10,7 @@ class AppModule extends FModule {
 
 export const appModule = new AppModule({
     components: [
-        appComponent,
         appHeader
-    ]
+    ],
+    bootstrap: appComponent
 }  )

@@ -4,5 +4,6 @@ import  {utilfw} from "./framework/index"
 
 
 utilfw.delay(2000).then(() => {
-    starton(appModule)
+starton(appModule)
+
 })
