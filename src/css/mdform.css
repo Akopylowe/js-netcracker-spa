@@ -12,7 +12,7 @@ body {
     right: 0;
     width: 400px;
     margin: auto;
-    background: #fff;
+    background: #ffffff;
     border-radius: 2px;
     -webkit-box-shadow: 0 19px 38px rgba(0,0,0,0.3), 0 15px 12px rgba(0,0,0,0.22);
     box-shadow: 0 19px 38px rgba(0,0,0,0.3), 0 15px 12px rgba(0,0,0,0.22);
@@ -57,7 +57,7 @@ body {
     margin: 0;
     color: rgba(0,0,0,0.54);
 }
-input[type=text],
+input[type=text],input[type=password],
 select {
     display: inline-block;
     -webkit-box-sizing: border-box;
@@ -76,15 +76,15 @@ select {
     -webkit-transition: border 0.56s cubic-bezier(0.4, 0, 0.2, 1);
     transition: border 0.56s cubic-bezier(0.4, 0, 0.2, 1);
 }
-input[type=text]:focus,
+input[type=text]:focus,input[type=password]:focus,
 select:focus {
     border-bottom: 2px solid #2196f3;
 }
-input[type=text].block,
+input[type=text].block,input[type=password].block,
 select.block {
     width: 100%;
 }
-input[type=text].wicon,
+input[type=text].wicon,input[type=password].wicon,
 select.wicon {
     width: 292px;
 }
@@ -95,7 +95,7 @@ select.wicon {
     margin-right: 12px;
     vertical-align: top;
 }
-.icon.location {
+.icon.pass {
     background: url("https://google.github.io/material-design-icons/action/svg/ic_room_24px.svg") no-repeat center;
 }
 .icon.mail {

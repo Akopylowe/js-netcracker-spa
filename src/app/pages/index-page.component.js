@@ -1,7 +1,7 @@
 import {FComponent} from "../../framework/index";
 
-class IndexPageComponent extends FComponent{
-    constructor(config){
+class IndexPageComponent extends FComponent {
+    constructor(config) {
         super(config)
     }
 }
@@ -11,22 +11,24 @@ export const indexPageComponent = new IndexPageComponent({
     template: `
     
 <div class="wrapper">
-  <div class="title">Авторизация</div>
-  <div class="content">
-    <ul>
-      <li>
-        <input class="wicon" id="mail" type="text" placeholder="E-mail"/>
-      </li>
-      <li>
-         <input id="pass" type="password" placeholder="Пароль"/>
-      </li>  
-     
-    </ul>
+    <form action="#mail">
+      <div class="title">Авторизация</div>
+      <div class="content">
+        <ul>
+          <li>
+            <input class="wicon" id="mail" type="text" placeholder="E-mail"/>
+          </li>
+          <li>
+             <input class="wicon" id="pass" type="password" placeholder="Пароль"/>
+          </li>  
+        </ul>
+      </div>
+      <div class="actions">
+    <button type="submit" class="button blue">Войти</button>
   </div>
-  <div class="actions">
-    <button class="button blue">Войти</button>
-  </div>
+  </form>
 </div>
+
     
     
     `
