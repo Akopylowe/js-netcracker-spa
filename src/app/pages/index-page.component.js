@@ -1,8 +1,21 @@
 import {FComponent} from "../../framework/index";
+import {router} from "../../framework/tools/router"
 
 class IndexPageComponent extends FComponent {
     constructor(config) {
         super(config)
+    }
+
+    preInit(){
+        console.log('Pre init')
+    }
+
+    afterInit(){
+        console.log('After init')
+    }
+
+    goTo(){
+        router.navigate('mail')
     }
 }
 

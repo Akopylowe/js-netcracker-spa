@@ -17,7 +17,7 @@ export const mailPageComponent = new MailPageComponent({
       <p>First Line <br>
          Second Line
       </p>
-      <a href="#!" class="secondary-content"><i class="material-icons">send</i></a>
+      <a href="#view" class="secondary-content"><i class="material-icons">send</i></a>
     </li>
     <li class="collection-item avatar">
       <i class="material-icons circle">folder</i>
@@ -25,7 +25,7 @@ export const mailPageComponent = new MailPageComponent({
       <p>First Line <br>
          Second Line
       </p>
-      <a href="#!" class="secondary-content"><i class="material-icons">send</i></a>
+      <a href="#view" class="secondary-content"><i class="material-icons">send</i></a>
     </li>
     <li class="collection-item avatar">
       <i class="material-icons circle green">insert_chart</i>
@@ -33,7 +33,7 @@ export const mailPageComponent = new MailPageComponent({
       <p>First Line <br>
          Second Line
       </p>
-      <a href="#!" class="secondary-content"><i class="material-icons">send</i></a>
+      <a href="#view" class="secondary-content"><i class="material-icons">send</i></a>
     </li>
     <li class="collection-item avatar">
       <i class="material-icons circle red">play_arrow</i>
@@ -41,9 +41,11 @@ export const mailPageComponent = new MailPageComponent({
       <p>First Line <br>
          Second Line
       </p>
-      <a href="#!" class="secondary-content"><i class="material-icons">send</i></a>
+      <a href="#view" class="secondary-content"><i class="material-icons">send</i></a>
     </li>
   </ul>
+  
+  
     
     
     `

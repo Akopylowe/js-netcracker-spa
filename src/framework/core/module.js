@@ -37,7 +37,9 @@
 
 
         renderComponent(c){
+            if (!utilfw.isUndefined(c.preInit)) c.preInit()
             c.render()
+            if (!utilfw.isUndefined(c.afterInit)) c.afterInit()
         }
 
 

@@ -11,6 +11,20 @@
     <link rel="stylesheet" href="../src/css/preloader.css">
     <link rel="stylesheet" href="../src/css/mdform.css">
     <link rel="stylesheet" href="../src/css/style.css">
+    <!-- ADD FIREBASE -->
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyBt3_raO2_Rk2TpGG03ZMzFZRYO52nHh2M",
+            authDomain: "afframework.firebaseapp.com",
+            databaseURL: "https://afframework.firebaseio.com",
+            projectId: "afframework",
+            storageBucket: "afframework.appspot.com",
+            messagingSenderId: "911712721708"
+        };
+        firebase.initializeApp(config);
+    </script>
 </head>
 <body>
 <app-root>

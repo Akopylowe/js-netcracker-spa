@@ -11,10 +11,10 @@ export const appHeader = new AppHeader({
     template: `
   <nav class="light-blue">
     <div class="nav-wrapper">
-      <a href="#!" class="brand-logo center">Email  </a>
+      <a href="#" class="brand-logo center">Email  </a>
       <ul class="right hide-on-med-and-down">
      <li style="margin-right: 20px"> safty by AntiFish</li>
-        <li><a href="#">О сервисе</a></li>
+        <li><a href="#about">О сервисе</a></li>
         <li class="active"><a href="#join">Регистрация</a></li>
       </ul>
     </div>
